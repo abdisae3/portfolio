@@ -44,9 +44,6 @@
 	.image{
 		height: unset;
 	}
-	.bg-white{
-		background: #fff;
-	}
 	.center{
 		background: #fdfdfd;
 		display: flex;
