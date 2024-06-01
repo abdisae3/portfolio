@@ -1,14 +1,14 @@
-<div class="home">
+
+home=()=>{
+	document.getElementById('app').innerHTML=`<div class="home">
 	<section class="main bg-main">
-		<div class="content">
+		<div class="d-flex justify-content-around align-items-end">
 			<div class="hallo">
 				<p>Hallo.... <br> saya </p>
 				<h1>Fauzi</h1>
 				<p>saya seorang freelncer, <br> web depelover, <br> dan editor foto </p>
 			</div>
-			<div class="profil">
-				<img src="./image/profil.jpg" alt="fauzi">
-			</div>
+				<img class="profil p-e-5" src="./image/profil.jpg" alt="fauzi">
 		</div>
 			<div class="svg">
 		<svg width="100%" height="150" viewBox="0 0 500 150" preserveAspectRatio="none">
@@ -16,10 +16,10 @@
 		</svg>
 	</div>
 	</section>
-	<section class="sh-2">
-		<div class="row">
-				<img class="image" src="./image/fauzi.jpg" alt="fauzi">
-			<div class="col-md-2 box-shadow-rb bg-white border">
+	<section class="sh-2 align-content-center">
+		<div class="row ">
+				<img class="image skew" src="./image/fauzi.jpg" alt="fauzi">
+			<div class="col-md-2 box-shadow-rb bg-white border ms-3">
 				<div class="center">
 					<p>
 						Ketertarikan saya kepada pemrograman menjadikan saya bekerja keras untuk mempelajri banyak bahasa pemrograman, khususnya di bidang web programing.
@@ -35,9 +35,9 @@
 		</div>
 	</section>
 	<section class="sh-3">
-		<div class="col">
+		<div class="col height-100">
 		<div class="row-md">
-			<div class="col-2 box-shadow-lb border bg-white width-40 center" >
+			<div class="d-flex col-2 box-shadow-lb border bg-white width-40 center" >
 				<div class="ps-6 ">
 					<h4>Pendidikan</h4>
 					<ul class="list-group">
@@ -78,13 +78,7 @@
 		</div>
 	</div>
 	</section>
-</div>
-
-
-
-
-
-
-
-
-
+</div>`
+	document.querySelector('title').innerHTML='Home';
+}
+// document.addEventListener('DOMContentLoaded',home())

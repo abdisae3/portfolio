@@ -15,7 +15,10 @@
 		
 	}
 	.main{ padding-block:70px }
-	.profil{top: 120px;}
+	.profil{
+		top: 120px;
+		height: unset;
+	}
 	.profil img{
 		height: 200%;
 		width: auto;
@@ -44,14 +47,8 @@
 	.image{
 		height: unset;
 	}
-	.center{
-		background: #fdfdfd;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 50%;
-	}
+	.bg-white{background: #fff;}
+	
 	.border{
 		border: 3px inset;
 	}

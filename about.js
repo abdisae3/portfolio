@@ -1,17 +1,15 @@
+about=()=> {
+document.getElementById('app').innerHTML= `
 <div class="pbs-80 bg-main">
-	<div class="row">
-		<div class="skew">
-			<img src="./image/fauzi.jpg" class="image" alt="fauzi">
-		</div>
-		<div class="col-8 ">
+	<div class=" clear-fix m-3">
+			<img src="./image/fauzi.jpg" class="image skew float-left m-3" alt="fauzi">
 			<h1 class="upcase f-md-28">fauzi anwar</h1>
-			<h6 class="caps f-md-20 wrap">web depelover| fullstack| freelance</h6><hr>
+			<h6 class="caps f-md-20 wrap m-3">web depelover| fullstack| freelance</h6><hr>
 			<p>Seorang lulusan SMA yang memiliki kemampuan di bidang pemrograman, terutama dalam web depelovment.</p>
-		</div>
 	</div>
-	<article class="mt-25"><hr><hr>
+	<article class="mt-25 p-b-5"><hr><hr>
 		<div class="row rule-y">
-			<div>
+			<div m-5>
 				<p>Kemampuan</p><hr><br><br>
 			
 				
@@ -52,4 +50,6 @@
 			</div>
 		</div>
 	</article>
-</div>
+</div>`
+document.querySelector('title').innerHTML='About';
+}
