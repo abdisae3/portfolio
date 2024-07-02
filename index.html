@@ -16,7 +16,7 @@
 <body>
 <div id="navbar" class="navbar">
 	<div class="navbrand"><a href="">FAUZI</a></div>
-	<div class="navbar-toggler bg-success">
+	<div class="navbar-toggler bg-main">
 		<button id="btn-toggler"></button>
 		<span class="hamburger d-block h-25 w-75 bg-warning"></span>
 		<span class="hamburger d-block h-25 w-75 bg-warning"></span>
@@ -24,7 +24,7 @@
 	</div>
 	<div class="collapse navbar-collapse" id="navLink">
 		<ul class="nav">
-			<li><a id="home" class="nav-link active" onclick="home()" href="#home" >Home</a></li>
+			<li><a id="home" class="nav-link" onclick="home()" href="#home" >Home</a></li>
 			<li><a id="about" class="nav-link" onclick="about()" href="#about" >About</a></li>
 			<li><a id="contact" class="nav-link" onclick="contact()" href="#contact" >Contact</a></li>
 			<li><a id="blog" class="nav-link" onclick="project()" href="#project" >Project</a></li>
@@ -41,18 +41,17 @@
 			<span><a href="">youtube</a></span>
 		</div>
 		<div class="col">
-			<form action="" method="post">
+			<form action="#" onsubmit="sendMessage()">
 				<div>
-					<span></span>
-					<label for="">Nama</label>
-					<input type="text" placeholder="masukan nama">
-					<label for="">email</label>
-					<input type="text" placeholder="masukan email">
-					<label for="">phone</label>
-					<input type="text" placeholder="masukan no telpon">
-					<label for="">pesan</label>
-					<textarea name="" id="" placeholder="tuliskan pesan kamu disini"></textarea>
-					<button>Kirim</button>
+					<label for="uname">Nama</label>
+					<input type="text" name="uname" id="uname" placeholder="masukan nama">
+					<label for="email">email</label>
+					<input type="email" name="email" id="email" placeholder="masukan email">
+					<label for="phone">phone</label>
+					<input type="tel" maxlength="16" id="phone" name="phone" placeholder="masukan no telpon">
+					<label for="message">pesan</label>
+					<textarea name="message" name="message" id="message" placeholder="tuliskan pesan kamu disini"></textarea>
+					<button type="submit">Kirim</button>
 				</div>
 			</form>
 		</div>

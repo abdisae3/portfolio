@@ -18,9 +18,9 @@ home=()=>{
 	</section>
 	<section class="sh-2 align-content-center">
 		<div class="row ">
-				<img class="image skew" src="./image/fauzi.jpg" alt="fauzi">
-			<div class="col-md-2 box-shadow-rb bg-white border ms-3">
-				<div class="center">
+			<img class="image skew relative" src="./image/fauzi.jpg" alt="fauzi">
+			<div class="col-md-9 box-shadow-rb bg-white border ms-3 ps-6">
+				<div class=" ms-3">
 					<p>
 						Ketertarikan saya kepada pemrograman menjadikan saya bekerja keras untuk mempelajri banyak bahasa pemrograman, khususnya di bidang web programing.
 					</p> <br>
